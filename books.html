@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>books</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" class="js-color-style" href="css/color/color-1.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <!--header start-->
+        <header class="header">
+
+            <div class="container">
+                <div class="header-main d-flex justify-content-between align-items-center">
+                    <div class="header-logo">
+                        <a href="index.html"><span>kitabi</span>keeda</a>
+                    </div>
+                    <button type="button" class="header-hamburger-btn js-header-menu-toggler">
+                        <span></span>
+                    </button>
+                    <div class="header-backdrop js-header-backdrop"></div>
+                    <nav class="header-menu js-header-menu">
+                        <button type="button" class="header-close-btn js-header-menu-toggler">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <ul class="menu">
+                            <li class="menu-item"><a href="index.html">home</a></li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#" class="js-toggle-sub-menu">books<i class="fas fa-chevron-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li class="sub-menu-item"><a href="books.html">books reviews</a></li>
+                                    <li class="sub-menu-item"><a href="book-summary.html">book summary</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#" class="js-toggle-sub-menu">account<i class="fas fa-chevron-down"></i></a>
+                                <ul class="sub-menu js-sub-menu">
+                                    <li class="sub-menu-item"><a href="log-in.html">log in</a></li>
+                                    <li class="sub-menu-item"><a href="sign-up.html">profile</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="contact.html">contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </header>
+        <!--header end-->
+        <!--breadcrumb start--><!--bootstrap-->
+
+        <div class="breadcrumb-nav">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0">
+                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                      <li class="breadcrumb-item"><a href="books.html">Books</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Book reviews</li>
+                    </ol>
+                  </nav>
+            </div>
+        </div>
+
+        <!--breadcrumb end-->
+        
+        <!-- book reviews section start -->
+
+        <section class="books-details section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+            
+                        <!--book review header start  -->
+                        <div class="books-header box">
+                            <h2 class="text-capitalize">Ikigai</h2>
+                            <div class="rating">
+                                <span class="average-rating">(4.5)</span>
+                                <span class="average-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="reviews">(230 reviews)</span>
+                            </div>
+                            <ul>
+                                <li>people ordered - <span>2200</span></li>
+                                <li>written by - <span>Hactor Garcia</span></li>
+                                <li>language - <span>english</span></li>
+                                <!-- <li> - <span></span></li> -->
+                            </ul>
+                        </div>
+                        
+                        <!-- book review header end -->
+                        <!-- bootstrap start-->
+                        <!-- book tabs start -->
+                        <nav class="books-tabs">
+                            <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
+                              <button class="nav-link active" id="book-Add to Cart-tab" data-bs-toggle="tab" data-bs-target="#book-Add to Cart" type="button" role="tab" aria-controls="book-Add to Cart" aria-selected="true">Add to Cart</button>
+                              <button class="nav-link" id="book-buy now-tab" data-bs-toggle="tab" data-bs-target="#book-buy now" type="button" role="tab" aria-controls="book-buy now" aria-selected="false">buy now</button>
+                              <!-- 
+                                
+                               -->
+
+                               
+                            </div>
+                          </nav>
+                        <!-- book tabs end -->
+
+                        <!-- tab panes start -->
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"></div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"></div>
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"></div>
+                          </div>
+                        <!-- tab panes end -->
+                        <!-- bootstrap end-->
+
+                        <div class="books-header box">
+                            <h2 class="text-capitalize">Dashboard</h2>
+                            <div class="sumamry">
+                                <h4>Bit confuse ? what to choose or what not ?</h4>
+                                <p>Here we have a book recommendation dashboard which will help you to determine the genre of books you prefer, this dashboard is helpful for both readers and authors.
+                                </p>
+                            </div>
+                        </div>
+                        <a href="https://public.tableau.com/app/profile/disha.rajak/viz/BookshopDataAnalysis_16929563878380/BookshopDashboard"><nav class="books-tabs">
+                            <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
+                              <button class="nav-link active" id="book-Dashboard-tab" data-bs-toggle="tab" data-bs-target="#book-Dashboard" type="button" role="tab" aria-controls="book-Dashboa" aria-selected="true">Dashboard</button>
+                            
+                             </div>
+                          </nav>
+                        </a>
+                        
+                        
+                    </div>
+                    <div class="col-lg-4">
+                    <!-- course sidebar start -->
+                    <div class="course-sidebar box">
+                        <img src="img\Ikigai.png" alt="book img">
+                    </div>
+                    
+                    <!-- course sidebar end -->
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- book reviews section end -->
+
+        <!--books section start-->
+
+
+        <section class="books-section section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="section-title text-center mb-4">
+                            <h2 class="title">featured books</h2>
+                            <p class="sub-title">Select the book of your choice</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <nav><!--bootstrap nav tabs start-->
+                            <div class="nav nav-tabs border-0 justify-content-center mb-4" id="nav-tab" role="tablist">
+                              <button class="nav-link active" id="fiction-tab" data-bs-toggle="tab" data-bs-target="#fiction" type="button" role="tab" aria-controls="fiction" aria-selected="true">Fiction</button>
+                              <button class="nav-link" id="Nonfiction-tab" data-bs-toggle="tab" data-bs-target="#Nonfiction" type="button" role="tab" aria-controls="Nonfiction" aria-selected="false">Nonfiction</button>
+                              <button class="nav-link" id="Mystery-tab" data-bs-toggle="tab" data-bs-target="#Mystery" type="button" role="tab" aria-controls="Mystery" aria-selected="false">Mystery</button>
+                            </div>
+                          </nav>
+                          <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="fiction" role="tabpanel" aria-labelledby="fiction-tab">
+                                <div class="row justify content center">
+                                    <!--books item start-->
+                                    <div class="col-mf-6 col-lg-3">
+                                        <div class="books-item">
+                                            <a href="book-summary.html" class="link">
+                                                <div class="books-item-inner">
+                                                    <div class="img-box">
+                                                        <img src="img/image 1/book_1.jpg" alt="book img">
+                                                    </div>
+                                                    <h3 class="title">cocogoose</h3>
+                                                    <div class="instructor" style="margin-right: 20px">
+                                                        <img src="img/instructor/1.png" alt="instructor img">
+                                                        <span class="instructor-name">john doe</span>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <span class="average-rating">(4.5)</span>
+                                                        <span class="average-stars">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </span>
+                                                        <span class="reviews">(230)</span>
+                                                    </div>
+                                                    <div class="price">$ 49</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-mf-6 col-lg-3">
+                                        <div class="books-item">
+                                            <a href="book-summary.html" class="link">
+                                                <div class="books-item-inner">
+                                                    <div class="img-box">
+                                                        <img src="img/image 1/book_2.jpg" alt="book img">
+                                                    </div>
+                                                    <h3 class="title">subletter</h3>
+                                                    <div class="instructor">
+                                                        <img src="img/instructor/1.png" alt="instructor img">
+                                                        <span class="instructor-name">john doe</span>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <span class="average-rating">(4.5)</span>
+                                                        <span class="average-stars">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </span>
+                                                        <span class="reviews">(230)</span>
+                                                    </div>
+                                                    <div class="price">$ 49</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-mf-6 col-lg-3">
+                                        <div class="books-item">
+                                            <a href="book-summary.html" class="link">
+                                                <div class="books-item-inner">
+                                                    <div class="img-box">
+                                                        <img src="img/image 1/book_3.jpg" alt="book img">
+                                                    </div>
+                                                    <h3 class="title">wesparis</h3>
+                                                    <div class="instructor">
+                                                        <img src="img/instructor/1.png" alt="instructor img">
+                                                        <span class="instructor-name">john doe</span>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <span class="average-rating">(4.5)</span>
+                                                        <span class="average-stars">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </span>
+                                                        <span class="reviews">(230)</span>
+                                                    </div>
+                                                    <div class="price">$ 49</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-mf-6 col-lg-3">
+                                        <div class="books-item">
+                                            <a href="book-summary.html" class="link">
+                                                <div class="books-item-inner">
+                                                    <div class="img-box">
+                                                        <img src="img/image 1/book_4.jpg" alt="book img">
+                                                    </div>
+                                                    <h3 class="title">beautifully</h3>
+                                                    <div class="instructor">
+                                                        <img src="img/instructor/1.png" alt="instructor img">
+                                                        <span class="instructor-name">john doe</span>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <span class="average-rating">(4.5)</span>
+                                                        <span class="average-stars">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </span>
+                                                        <span class="reviews">(230)</span>
+                                                    </div>
+                                                    <div class="price">$ 49</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!--books item end-->
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="Nonfiction" role="tabpanel" aria-labelledby="Nonfiction-tab">
+                                <div class="row justify-content-center">
+                                    <!--books item start-->
+                                    <div class="col-mf-6 col-lg-3">
+                                        <div class="books-item">
+                                            <a href="book-summary.html" class="link">
+                                                <div class="books-item-inner">
+                                                    <div class="img-box">
+                                                        <img src="img/books/Nonfiction/nf_1.jpg" alt="book img">
+                                                    </div>
+                                                    <h3 class="title">clever lands</h3>
+                                                    <div class="instructor" style="margin-right: 20px">
+                                                        <img src="img/instructor/1.png" alt="instructor img">
+                                                        <span class="instructor-name">john doe</span>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <span class="average-rating">(4.5)</span>
+                                                        <span class="average-stars">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </span>
+                                                        <span class="reviews">(230)</span>
+                                                    </div>
+                                                    <div class="price">$ 49</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!--books item end-->
+                                    <!--books item start-->
+                                    <div class="col-mf-6 col-lg-3">
+                                        <div class="books-item">
+                                            <a href="book-summary.html" class="link">
+                                                <div class="books-item-inner">
+                                                    <div class="img-box">
+                                                        <img src="img/books/Nonfiction/nf_2.jpg" alt="book img">
+                                                    </div>
+                                                    <h3 class="title">to kill a mocking bird</h3>
+                                                    <div class="instructor" style="margin-right: 20px">
+                                                        <img src="img/instructor/1.png" alt="instructor img">
+                                                        <span class="instructor-name">john doe</span>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <span class="average-rating">(4.5)</span>
+                                                        <span class="average-stars">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </span>
+                                                        <span class="reviews">(230)</span>
+                                                    </div>
+                                                    <div class="price">$ 49</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!--books item end-->
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="Mystery" role="tabpanel" aria-labelledby="Mystery-tab">
+                                <div class="row justify-content-center">
+                                    <!--books item start-->
+                                    <div class="col-mf-6 col-lg-3">
+                                        <div class="books-item">
+                                            <a href="book-summary.html" class="link">
+                                                <div class="books-item-inner">
+                                                    <div class="img-box">
+                                                        <img src="img/books/mystery/myt_1.jpg" alt="book img">
+                                                    </div>
+                                                    <h3 class="title">the giver</h3>
+                                                    <div class="instructor" style="margin-right: 20px">
+                                                        <img src="img/instructor/1.png" alt="instructor img">
+                                                        <span class="instructor-name">john doe</span>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <span class="average-rating">(4.5)</span>
+                                                        <span class="average-stars">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </span>
+                                                        <span class="reviews">(230)</span>
+                                                    </div>
+                                                    <div class="price">$ 49</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!--books item end-->
+                                    <!--books item start-->
+                                    <div class="col-mf-6 col-lg-3">
+                                        <div class="books-item">
+                                            <a href="book-summary.html" class="link">
+                                                <div class="books-item-inner">
+                                                    <div class="img-box">
+                                                        <img src="img/books/mystery/myt_2.jpg" alt="book img">
+                                                    </div>
+                                                    <h3 class="title">the runs of gorlan</h3>
+                                                    <div class="instructor" style="margin-right: 20px">
+                                                        <img src="img/instructor/1.png" alt="instructor img">
+                                                        <span class="instructor-name">john doe</span>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <span class="average-rating">(4.5)</span>
+                                                        <span class="average-stars">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </span>
+                                                        <span class="reviews">(230)</span>
+                                                    </div>
+                                                    <div class="price">$ 49</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!--books item end-->
+                                </div>
+                            </div>
+                          </div>
+                    </div><!--bootstrap nav tabs end-->
+                </div>
+                <div class="row">
+                    <div class="col-12 m1-3">
+                        <!--pagination start bootsrap-->
+
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                  <i class="fas fa-chevron-left"></i>
+                                </a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item active"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item"><a class="page-link" href="#">4</a></li>
+                              <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+                              <li class="page-item"><a class="page-link" href="#">40</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+
+                        <!--pagination end-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--books section end-->
+
+        <!-- footer start-->
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="conatiner">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3 class="footer-logo"><span>kitabi</span>keeda</h3>
+                                <ul>
+                                    <li><a href="#">about</a></li>
+                                    <li><a href="#">recommendation</a></li>
+                                    <li><a href="#">featured</a></li>
+                                    <li><a href="#">feedback</a></li>
+                                    <li><a href="#">blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>reading</h3>
+                                <ul>
+                                    <li><a href="#">get the app</a></li>
+                                    <li><a href="#">testimonials</a></li>
+                                    <li><a href="#">pricing</a></li>
+                                    <li><a href="#">faq</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>more</h3>
+                                <ul>
+                                    <li><a href="#">account info</a></li>
+                                    <li><a href="#">privacy policy</a></li>
+                                    <li><a href="#">ordered items</a></li>
+                                    <li><a href="#">help and support</a></li>
+                                    <li><a href="#">payment method</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>get in touch</h3>
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f social-icon"></i> facebook</a></li>
+                                    <li><a href="#"><i class="fab fa-twitter social-icon"></i> twitter</a></li>
+                                    <li><a href="#"><i class="fab fa-instagram social-icon"></i> instagram</a></li>
+                                    <li><a href="#"><i class="fab fa-youtube social-icon"></i> youtube</a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in social-icon"></i> linkedin</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p class="m-0 py-4 text-center">copyright &copy;2023 Disha Rajak</p>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end-->
+
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
